@@ -26,6 +26,7 @@ setup(
                 'temperature_publisher = temperature_monitor.temperature_publisher:main',
                 'threshold_subscriber = temperature_monitor.threshold_subscriber:main',
                 'alert_publisher = temperature_monitor.alert_publisher:main',
+                'temperature_logger = temperature_monitor.temperature_logger:main',
             ],
         },
 )
